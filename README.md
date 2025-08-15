@@ -4,18 +4,22 @@ This project addresses the challenge of efficient and secure programming for ESP
 
 This project aims to solve these issues by designing a product capable of:
 
-1.Programming up to 3 ESP modules simultaneously 2.Protecting the main programming board from potential failures 3.Detecting the health status of each module to streamline the coding and hardware debugging process for technicians
+1. Programming up to 3 ESP modules simultaneously
+2. Protecting the main programming board from potential failures
+3. Detecting the health status of each module to streamline the coding and hardware debugging process for technicians
 
 Project Objectives: 
 
-1.USB Port Design: Utilized STM32 microcontroller to design and code a USB port on the board, enabling communication with each of the 3 ESP modules.
+1. USB Port Design: Utilized STM32 microcontroller to design and code a USB port on the board, enabling communication with each of the 3 ESP modules.
 
-2.Multi-Module Programming Board Design: Developed a custom board capable of programming 3 ESP modules concurrently, significantly increasing production efficiency.
+2. Multi-Module Programming Board Design: Developed a custom board capable of programming 3 ESP modules concurrently, significantly increasing production efficiency.
 
-3.Protection Mechanisms: Implemented necessary protection to safeguard the main programming board against potential issues, enhancing durability and reliability.
+3. Protection Mechanisms: Implemented necessary protection to safeguard the main programming board against potential issues, enhancing durability and reliability.
 
-4.Module Health Detection: Integrated diagnostics to determine the operational status of each module, displaying the condition of each on the board to aid technicians in troubleshooting.
+4. Module Health Detection: Integrated diagnostics to determine the operational status of each module, displaying the condition of each on the board to aid technicians in troubleshooting.
 
 Prerequisites:
 
-STM32 programming tools ESP modules PCB design software for board schematics
+1. STM32 programming tools such as Keil and Cube IDE
+2. ESP modules
+3. PCB design software for board schematics
